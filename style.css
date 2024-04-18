@@ -1,0 +1,216 @@
+.fondo {
+
+    background-image: url("Valorant-Kapak.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: auto;
+}
+
+.titulo-info {
+    font-size: 35px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: fantasy;
+}
+.texto-fondo {
+    font-family: fantasy;
+    height: 200px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fondo-info{
+    background-image: url(fondoinfo.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.textoheader {
+    margin-top: 300px;
+    font-size: 80px;
+    text-shadow: 0 0 10px black;
+}
+
+.texto-40 {
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 0 0 5px black;
+}
+.menu {
+    list-style-type: none;
+    background-color: #B62525;
+    width: 100%;
+    position: fixed;
+    overflow: auto;
+}
+
+.menu li {
+    float: left;
+}
+
+.menu li a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px 15px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.menu li:hover {
+    background-color: white;
+}
+
+.menu li a:hover {
+    color: red;
+}
+
+.GaleriaSec{
+    background-image: url(galeria.jpg);
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.GaleriaImg{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+}
+
+.GaleriaImg:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
+
+.contenedor {
+    background-image: url(cards.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 80px 0;
+    margin: auto;
+}
+
+.contacto {
+    background-color: darkcyan;
+    color: white;
+    text-shadow: 0 0 5px blue;
+}
+
+.formulario {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.input {
+    background: transparent;
+    border: 0;
+    outline: none;
+    border: 2px solid white;
+    padding: 20px 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.input-ancho {
+    width: 48%;
+    display: inline-block;
+    margin-bottom: 30px;
+}
+
+.textarea-ancho {
+    width: 98%;
+    margin-bottom: 30px;
+}
+
+.input::placeholder {
+    color: azure;
+    font-family: fantasy;
+}
+
+.contenedor-card {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    box-shadow: 0 0 3px rgb(82, 3, 3);
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.card:hover {
+    box-shadow: 0 0 10px rgb(138, 9, 9);
+    transform: scale(1.1);
+    transition: transform 1s;
+}
+
+.card p {
+    font-size: 25px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.card i {
+    color: rgba(255, 0, 0, 0.779);
+    font-size: 50px;
+    margin: 40px 0 30px 0;
+}
+
+.card h3 {
+    padding: 25px;
+}
+
+.boton {
+    background-color: rgba(233, 80, 80, 0.584);
+    color: white;
+    padding: 20px 10px;
+    border: 1px solid white;
+    margin-bottom: 30px;
+    cursor: pointer;
+    display: inline-block;
+    width: 200px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.boton:hover {
+    background-color: white;
+    color: rgba(233, 80, 80, 0.584);
+    border: 1px solid rgba(233, 80, 80, 0.584);
+}
+
+.margen-icon {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+.fondo-footer{
+    background-color: rgb(57, 57, 57);
+    
+}
+
+.footer-text{
+    color: aliceblue;
+}
